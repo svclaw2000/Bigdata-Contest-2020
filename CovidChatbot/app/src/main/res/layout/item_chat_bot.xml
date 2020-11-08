@@ -4,12 +4,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    tools:background="#000000">
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/chat_padding_outer"
+    android:paddingEnd="@dimen/chat_padding_inner"
+    tools:background="@color/bg_default">
 
     <TextView style="@style/Chat"
         android:id="@+id/tv_chat"
         android:background="@drawable/bg_chat_bot"
-        android:layout_marginEnd="@dimen/chat_margin_inner"
-        tools:text="안녕" />
+        tools:text="안녕"/>
+
+    <TextView style="@style/ChatTime"
+        android:id="@+id/tv_chat_time"
+        tools:text="오후 3:00"/>
 </LinearLayout>

@@ -13,6 +13,7 @@
         android:padding="@dimen/topbar_padding">
 
         <TextView
+            android:id="@+id/tv_status"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -22,7 +23,7 @@
         <TextView style="@style/Button"
             android:id="@+id/btn_settings"
             android:background="@drawable/btn_settings"
-            android:text="@string/main_voice_btn"/>
+            android:text="@string/main_settings_btn"/>
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView

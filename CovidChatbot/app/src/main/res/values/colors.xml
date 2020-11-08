@@ -11,5 +11,6 @@
     <color name="bg_chatting">#FFFFFF</color>
     <color name="bg_settings">#A0B3C3</color>
     <color name="text_chat">#000000</color>
+    <color name="text_chat_time">#404040</color>
     <color name="text_btn">#000000</color>
 </resources>
