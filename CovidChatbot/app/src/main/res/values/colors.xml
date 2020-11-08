@@ -3,4 +3,13 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="bg_default">#B2C7D9</color>
+    <color name="bg_topbar">#A9BDCE</color>
+    <color name="bg_chat_bot">#FFFFFF</color>
+    <color name="bg_chat_user">#FFEB33</color>
+    <color name="bg_chatting">#FFFFFF</color>
+    <color name="bg_settings">#A0B3C3</color>
+    <color name="text_chat">#000000</color>
+    <color name="text_btn">#000000</color>
 </resources>

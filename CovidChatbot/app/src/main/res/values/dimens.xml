@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chat_corner">5dp</dimen>
+    <dimen name="chat_margin_inner">40dp</dimen>
+    <dimen name="chat_margin_outer">15dp</dimen>
+    <dimen name="chat_margin_vertical">5dp</dimen>
+    <dimen name="chat_padding">5dp</dimen>
+    <dimen name="chat_text">15sp</dimen>
+
+    <dimen name="btn_text">15sp</dimen>
+    <dimen name="btn_padding_vertical">5dp</dimen>
+    <dimen name="btn_padding_horizontal">10dp</dimen>
+    <dimen name="btn_margin">5dp</dimen>
+
+    <dimen name="topbar_padding">5dp</dimen>
+</resources>
