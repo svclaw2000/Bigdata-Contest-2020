@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Chat" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/chat_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/chat_padding_vertical</item>
+        <item name="android:paddingStart">@dimen/chat_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/chat_padding_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/chat_margin_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/chat_margin_vertical</item>
+        <item name="android:textSize">@dimen/chat_text</item>
+        <item name="android:textColor">@color/text_chat</item>
+    </style>
+
+    <style name="ChatTime" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/chat_padding_vertical</item>
+        <item name="android:paddingEnd">@dimen/chat_padding_vertical</item>
+        <item name="android:layout_marginTop">@dimen/chat_margin_vertical</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textSize">@dimen/chat_time_text</item>
+        <item name="android:textColor">@color/text_chat_time</item>
+    </style>
+
+    <style name="Button" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/btn_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/btn_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/btn_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/btn_padding_vertical</item>
+        <item name="android:textColor">@color/text_btn</item>
+        <item name="android:textSize">@dimen/btn_text</item>
+    </style>
+</resources>

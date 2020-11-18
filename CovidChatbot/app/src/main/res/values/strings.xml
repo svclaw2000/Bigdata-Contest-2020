@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Covid Chatbot</string>
+    
+    <string name="main_status_bar">상태바</string>
+    <string name="main_status_send">송신: %s</string>
+    <string name="main_status_receive">수신: %s</string>
+
+    <string name="main_settings_btn">설정</string>
+    <string name="main_send_btn">전송</string>
+    <string name="main_voice_btn">음성</string>
+    <string name="main_chat_hint">무엇이든 물어보세요!</string>
+
+    <string name="chat_time_fmt">%s %d:%d</string>
+
+    <string name="server_url">http://localhost:8000</string>
+</resources>

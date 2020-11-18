@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/chat_padding_outer"
+    android:paddingEnd="@dimen/chat_padding_inner"
+    tools:background="@color/bg_default">
+
+    <TextView style="@style/Chat"
+        android:id="@+id/tv_chat"
+        android:background="@drawable/bg_chat_bot"
+        tools:text="안녕"/>
+
+    <TextView style="@style/ChatTime"
+        android:id="@+id/tv_chat_time"
+        tools:text="오후 3:00"/>
+</LinearLayout>
