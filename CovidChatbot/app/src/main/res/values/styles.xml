@@ -12,7 +12,10 @@
     <style name="Chat" parent="Widget.AppCompat.TextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:padding">@dimen/chat_padding</item>
+        <item name="android:paddingTop">@dimen/chat_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/chat_padding_vertical</item>
+        <item name="android:paddingStart">@dimen/chat_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/chat_padding_horizontal</item>
         <item name="android:layout_marginTop">@dimen/chat_margin_vertical</item>
         <item name="android:layout_marginBottom">@dimen/chat_margin_vertical</item>
         <item name="android:textSize">@dimen/chat_text</item>
@@ -22,8 +25,8 @@
     <style name="ChatTime" parent="Widget.AppCompat.TextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingStart">@dimen/chat_padding</item>
-        <item name="android:paddingEnd">@dimen/chat_padding</item>
+        <item name="android:paddingStart">@dimen/chat_padding_vertical</item>
+        <item name="android:paddingEnd">@dimen/chat_padding_vertical</item>
         <item name="android:layout_marginTop">@dimen/chat_margin_vertical</item>
         <item name="android:layout_gravity">bottom</item>
         <item name="android:textSize">@dimen/chat_time_text</item>
