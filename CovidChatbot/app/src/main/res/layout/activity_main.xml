@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
+<!--    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/bg_topbar"
@@ -24,7 +24,7 @@
             android:id="@+id/btn_settings"
             android:background="@drawable/btn_settings"
             android:text="@string/main_settings_btn"/>
-    </LinearLayout>
+    </LinearLayout>-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_chat"
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/bg_chatting"
-            android:padding="@dimen/chat_padding"
+            android:padding="@dimen/chat_padding_horizontal"
             android:minLines="3"
             android:gravity="top|start"
             android:hint="@string/main_chat_hint"
