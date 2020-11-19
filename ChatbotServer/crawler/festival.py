@@ -59,5 +59,5 @@ def get_cleansed_date(d):
         date[3] = date[0]
     elif len(date) == 5:
         date.append(date[4])
-        date[3], date[4] = date[0], date[1]
+        date[3], date[4] = date[0], date[3]
     return date

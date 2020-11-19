@@ -26,7 +26,7 @@ def get_from_csv(path : str = 'data/clinic.csv'):
             location=(loc['x'], loc['y']),
             weekday=d['평일 운영시간'],
             saturday=d['토요일 운영시간'],
-            holiday=d['일요일/공휴일\n운영시간'],
+            holiday=d['일요일/공휴일 운영시간'],
             contact=d['대표 전화번호']
         ))
     Clinic.insert(clinics)
