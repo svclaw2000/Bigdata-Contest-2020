@@ -36,4 +36,4 @@ Slotminer (https://github.com/bytecell/slotminer)
 ## 👨‍💻 Members
 - 박규훤: [FrontEnd/BackEnd] svclaw2000@gmail.com
 - 김아경: [ML&DL Engineering] bxzx55@gmail.com
-- 이지윤: [Data Engineering] junepass6@naver.com
+- 이지윤: [Data Engineering] junepass6@gmail.com
